@@ -1,0 +1,327 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
+
+
+
+.error {
+  color: red;
+  font-size: 10px;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+background-image: linear-gradient(#ffffff, #ecebeb);
+font-family: Helvetica, Arial,  sans-serif;
+}
+
+
+
+.notification{
+background-color: transparent;
+}
+
+.brand {
+height: 70px;
+/*margin-top: 3%;*/
+/*margin-bottom: 3%;*/
+}
+
+.brand-badge {
+height: 120px;
+margin-top: 2%;
+margin-bottom: 5%;
+}
+
+.outcome-icon {
+height: 120px;
+margin-top: 10%;
+margin-bottom: 10%;
+}
+
+.jumbotron {
+background-color: transparent;
+margin-bottom: 0;
+}
+
+.jumbotron.header {
+padding: 2% 0 2% 0 !important;
+}
+
+.help-block a {
+color: #1083FF;
+}
+
+.half-op {
+opacity: .5;
+}
+
+.form-group h4 {
+line-height: 25px;
+  font-weight: 400;
+}
+
+.form-group h4 small {
+line-height: 15px;
+}
+
+.lead {
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 15px;
+}
+
+.weight-400 {
+font-weight: 400;
+}
+
+.lh-20 {
+line-height: 20px;
+}
+
+.user-id {
+margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.signature .form-control {
+height: 110px;
+}
+
+.small-modal {
+width: 410px;
+}
+
+/*----------------------------Checkbox styles-----------------------------*/
+.checkbox .large label {
+  height: 30px;
+}
+
+.checkbox.large label h4 {
+font-weight: 400;
+
+}
+
+label, input[type="checkbox" i] {
+cursor: pointer;
+}
+
+.large input[type=checkbox], .large input[type=radio] {
+  margin: 7px 0px 0px -29px;
+}
+
+.checkbox input[type=checkbox] {
+width: 20px;
+height: 20px;
+}
+
+.consent {
+min-height: 90px;
+/*padding: 20px;
+background-color: #e1e1e1;*/
+}
+
+.consent small {
+line-height: 1.5;
+}
+
+.pad-15 {
+padding: 15px;
+}
+
+.pad-top-15 {
+padding-top: 15px;
+}
+
+.pad-btm-15 {
+padding-bottom: 15px;
+}
+
+
+
+.open-icon {
+width: 22px;
+  height: 22px;
+  opacity: .5;
+margin-right: 10px;
+}
+
+.brand-2 {
+margin: 3% auto;
+height: 35px
+}
+
+.btn-primary {
+background-color: #005ca6;
+border: 1px #005ca6 solid;
+}
+
+
+
+
+.outline-btn {
+background-color: #F6F4F3;
+color: #000000;
+border: 1px solid #404245;
+}
+
+.outline-btn:hover {
+background-color: #77808f;
+color: #ffffff;
+border: 1px solid  #404245;
+}
+
+.btn-block+.btn-block {
+margin-top:10px;
+}
+
+.remove-float {
+float: none;
+}
+
+.disabled {
+background-color: #D1D1D1 !important;
+  color: #000000;
+}
+
+.over-vis {
+overflow: visible;
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 370px) , screen and (max-height: 670px) {
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.checkbox .large label {
+    height: 20px;
+}
+
+.checkbox.large label h4 {
+  font-weight: 400;
+    height: 8px;
+    font-size: 14px;
+}
+
+ .large label, input[type="checkbox" i] {
+  cursor: pointer;
+}
+
+/*	 .large input[type=checkbox], .large input[type=radio] {
+    margin: 11px 0px 0px -20px;
+}*/
+
+
+
+}
+
+@media (max-width: 375px) and (min-height: 650px) , screen and (min-height: 800px) {
+.consent, .brand-2 {
+  margin-bottom: 35px;
+}
+
+}
+
+@media (max-height: 820px) and (max-width: 670px) { 
+.mobile-h2 {
+  font-size: 22px !important;
+}
+
+.reg.buttons {
+  padding: 15px 0;
+  background-color: #ece9e6;
+  box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.75);
+}
+body.reg {
+  min-height: 700px;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 991px) {
+.center-text-mobile {
+  text-align: center;
+}
+}
+
+/*Desktop Width*/
+@media (min-width: 991px) {
+.mar-tp-60 {
+  margin-top: 60px;
+}
+
+.user-id {
+  font-size: 36px;
+}
+
+.desk-up-50 {
+  position: relative;
+    bottom: 50px;
+}
+
+.desk-dw-50 {
+  position: relative;
+    top: 50px;
+}
+
+.desk-down {
+  top: 100px;
+}
+}
+
+
+
+/* Large devices (large desktops, 1200px and up) */
+/* @media (min-width: @screen-lg-min) { ... } */
+
+
+
+
+html{
+  height: 100%;
+ 
+}

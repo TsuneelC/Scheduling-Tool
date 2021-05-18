@@ -1,0 +1,34 @@
+.search-input {
+  width: 20%;
+}
+
+.item-text {
+  padding: 0.5em 0.75em;
+  background-color: lightskyblue;
+  color: white;
+  display: block;
+}
+
+.menu-item {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.menu-item-active {
+  background-color: royalblue;
+  color: white;
+  border: 0.5px solid royalblue;
+}
+
+.remove-link {
+  margin-left: 1rem;
+  cursor: pointer;
+  color: blue;
+}
+
+
+.zipbox{
+  max-height: 190px;
+  overflow: hidden auto;
+}

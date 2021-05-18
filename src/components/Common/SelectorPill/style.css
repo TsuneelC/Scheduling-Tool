@@ -1,0 +1,17 @@
+.selector-pill {
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: white;
+  color: #005ca6;
+  border: 1px solid#005ca6;
+  text-align: center;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.active-selector-pill {
+  background-color: #1083FF;
+  color: white;
+  border: 1px solid white;
+}
